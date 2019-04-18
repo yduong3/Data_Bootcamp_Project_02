@@ -2,11 +2,10 @@
 
 ## Project Description
 
-The aim of this project is to combine crime rate data and Apartment Rental prices data in Toronto into a single database for analysis. Data was collected in 2018
+The aim of this project is to combine crime data and apartment rental prices data in Toronto into a single database for analysis. Rental data was collected in 2018, and one 2018 crime data is used.
 
-The crime rate data contains a list of various crimes reported that occured in apartment buildings the the Apartment rental data shows the average rental price for apartments. Both datasets contain data collected from all of Toronto's 140 Neighbourhoods. The datasets will be merged on FSA.
+The crime data contains a list of various crimes reported that occured in apartment buildings and outside.   The apartment rental data shows the rental price for various apartments in Toronto. Both datasets contain data collected from various neighbourhoods in Toronto. The datasets will be merged on FSA.
 
-The final database will be used provide insight as to whether there is a direct relationship between crime and apartment rental prices in Toronto.
+The final database will be used to provide insight into crime rates and apartment rentals and whether a particular apartment is located in a safe neighbourhood.
 
-
-Sources of data were from kaggle, API request from google geocode...Tools used in this project: Python & Pandas for data cleaning and transformation & MySQL to load the final database.
+Sources of data were from kaggle, Toronto Police Service and API request from google geocode.Tools used in this project: Python Pandas for data cleaning and transformation & then load to a final SQL database.
